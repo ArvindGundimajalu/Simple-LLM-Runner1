@@ -2,7 +2,7 @@ Write-Host "Creating python virtual environment" -ForegroundColor red -Backgroun
 python -m venv .\venv
 
 Write-Host "Activating python virtual environment" -ForegroundColor red -BackgroundColor white
-.\SQLLAAMA\venv
+.\
 
 Write-Host 'Installing all requirements for the app' -ForegroundColor red -BackgroundColor white
 pip install -r .\SQLLAAMA\requirements.txt
